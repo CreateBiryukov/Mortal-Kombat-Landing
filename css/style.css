@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #010202;
+}
+
+header{
+    width: 79.584%;
+    /*margin: 0 auto;*/
+    margin-left: 10.209%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.889%;
+    z-index: 2;
+    position: absolute;
+}
+
+.header_user{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 9%;
+}
+.user_name{
+    padding-right: 15px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.user_img{
+    width: 40px;
+}
+
+section{
+    padding-top: 20.625%;
+    width: 32%;
+    margin-left: 10.21%;
+    padding-bottom: 20.7%;
+}
+.film-logo{
+    width: 88%;
+}
+.film-tags{
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+    width: 76%;
+    padding-bottom: 2%;
+}
+.film-tags_text{ 
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #444040;
+    padding-right: 15px;
+}
+.film-tags_textb{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #444040;
+    border: 1px solid #4e4a4a;
+    border-radius: 2px;
+}
+.film-text{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.film-buttons{
+    margin-top: 8%;
+    width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.film-button-left{
+    padding: 10px 25px;
+    background: #EA6E20;
+    border-radius: 6px;
+    outline: none;
+    border:none;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.film-button-right{
+    display: flex;
+    align-items: center;
+    padding: 11px 26px;
+    background: #2F2F2F;
+    border-radius: 6px;
+    outline: none;
+    border:none;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button-arrow{
+    padding-right: 10px;
+}
+.cover-img{
+    left: 46.88%;
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+}
